@@ -20,3 +20,4 @@ tags = [Div('Some content'), Heading('My Amazing Heading'), Div('Another div')]
 
 for tag in tags:
     print(str(tag) + ': ' + tag.render())
+    print(tag.render())
